@@ -46,6 +46,22 @@ API → Ingestion (Python) → BigQuery → Risk Score Computation → Visualiza
         ↓
         📊 Output: Risk Scores & Charts
 
+## 🧠 Challenges & Learnings
+
+- Datasets had inconsistent formats, especially with date fields and null values.
+- Rainfall data was sparse and required interpolation.
+- Aligning datasets by region and time required extra cleaning steps.
+- Learned how to build a modular pipeline using Python and BigQuery.
+- Gained experience running code with GitHub Actions and structuring cloud-friendly pipelines.
+
+
+## 🚀 Next Steps & Enhancements
+
+- Integrate the third dataset (Real Estate Prices) to enhance risk granularity.
+- Add a front-end dashboard (e.g., Streamlit or Dash) for stakeholder access.
+- Schedule automated ingestion using Cloud Scheduler + Pub/Sub or Airflow.
+- Expand risk scoring logic to support machine learning for predictive modeling.
+- Enable alerting (email or Slack) for high-risk regions using risk thresholds.
 
 
 
