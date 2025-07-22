@@ -1,4 +1,5 @@
 # Underwriting Risk Insight Pipeline
+![CI](https://github.com/NadaEljack/underwriting-risk-pipeline/actions/workflows/run-scripts.yml/badge.svg)
 
 ## Objective
 Build a serverless pipeline that ingests, processes, and visualizes two open datasets to generate underwriting risk insights for **automobiles** line of business.
