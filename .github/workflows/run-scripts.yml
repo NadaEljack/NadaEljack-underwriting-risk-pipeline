@@ -1,0 +1,21 @@
+name: Run Python Scripts
+
+on: [push]
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run Python scripts
+        run: |
+          python notebooks/01_ingest.py
+          python notebooks/02_analysis.py
+          python notebooks/03_risk_score.py
+          python notebooks/04_visualizations.py
