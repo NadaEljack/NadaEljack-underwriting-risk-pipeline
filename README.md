@@ -46,7 +46,7 @@ API → Ingestion (Python) → BigQuery → Risk Score Computation → Visualiza
         ↓
         📊 Output: Risk Scores & Charts
 
-## 🧠 Challenges & Learnings
+## Challenges & Learnings:
 
 - Datasets had inconsistent formats, especially with date fields and null values.
 - Rainfall data was sparse and required interpolation.
@@ -55,7 +55,7 @@ API → Ingestion (Python) → BigQuery → Risk Score Computation → Visualiza
 - Gained experience running code with GitHub Actions and structuring cloud-friendly pipelines.
 
 
-## 🚀 Next Steps & Enhancements
+## Next Steps & Enhancements:
 
 - Integrate the third dataset (Real Estate Prices) to enhance risk granularity.
 - Add a front-end dashboard (e.g., Streamlit or Dash) for stakeholder access.
@@ -64,5 +64,15 @@ API → Ingestion (Python) → BigQuery → Risk Score Computation → Visualiza
 - Enable alerting (email or Slack) for high-risk regions using risk thresholds.
 
 
+## Live Demo:
+
+This project is currently designed to run locally using modular Python scripts.
+
+To replicate the results:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/NadaEljack/your-repo-underwriting-risk-pipeline.git
+   cd underwriting-risk-pipeline
 
 
